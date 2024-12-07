@@ -14,6 +14,8 @@ a {
 }
 
 .midasi {
+	position: relative;
+	left: 20px;
 	font-size: 30px;
 	font-weight: bold;;
 	color: #000030;
