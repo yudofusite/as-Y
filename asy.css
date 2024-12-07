@@ -6,13 +6,6 @@ body {
   font-family:"メイリオ", "Meiryo","ＭＳ ゴシック","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3",sans-serif; 
   margin: 0;
   padding: 0;
-	user-select:none;
-	-webkit-user-select:none;	// Google Chrome、Safari
-	-webkit-user-drag:none;
-	-moz-user-select:none;	// Firefox
-	-khtml-user-select:none;
-	-khtml-user-drag:none;
-   overflow: hidden;
 }
 
 a {
