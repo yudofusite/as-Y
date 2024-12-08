@@ -23,3 +23,10 @@ a {
 	margin: 5px;
 	border-left: 4px solid #000090;
 }
+.m1 {
+	position: relative;
+	left: 25px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #000040;
+}
