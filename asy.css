@@ -58,3 +58,10 @@ a {
 	color: #300000;
 	font-weight: bold;
 }
+.foot {
+	background: #000020;
+	color: #ffffff;
+	width: 98vw;
+	height: fit-context;
+	padding: 1vw;
+}
