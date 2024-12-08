@@ -34,3 +34,12 @@ a {
 	position: relative;
 	left: 28px;
 }
+.title {
+	position: relative;
+	left: 10px;
+	color: #000000;
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: 2px solid #dddddd;
+	padding: 4px;
+}
