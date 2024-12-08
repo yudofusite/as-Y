@@ -51,3 +51,10 @@ a {
 	font-weight: bold;
 	padding: 2px;
 }
+.ser {
+	position: relative;
+	left: 20px;
+	font-size: 16px;
+	color: #300000;
+	font-weight: bold;
+}
