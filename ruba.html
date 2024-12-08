@@ -34,20 +34,20 @@
       超絶便利なもので、仕事の効率化などでよく聞く(よね？)アレです。<br>以下、Rubyプログラム実行バッチファイル「RubyRunner.bat」の内容を書いときます。</p>
     <div class="list">
       <pre>
-      @ECHO OFF<br>
-      ECHO 実行するRubyプログラムのファイル名を入れてください<br>
-      :INPUT_START<br>
-      SET IN1=<br>
-      SET /P IN1=&#009#ファイル名入力部分(ファイル名は変数IN1に代入しています)<br>
-      IF "%IN1%"=="" EXIT&#009&#009#何も入力されなかった場合は終了<br>
-      :INPUT_CONF    #←要らないかも<br>
+      @ECHO OFF
+      ECHO 実行するRubyプログラムのファイル名を入れてください
+      :INPUT_START
+      SET IN1=
+      SET /P IN1=&#009#ファイル名入力部分(ファイル名は変数IN1に代入しています)
+      IF "%IN1%"=="" EXIT&#009&#009#何も入力されなかった場合は終了
+      :INPUT_CONF&#009&#009#←要らないかも
 
-      cd C:Users\(ユーザー名)\OneDrive\デスクトップ\Ruby    #今回はデスクトップの「ruby」というフォルダにあるプログラムを実行するようにしてあります。<br>
-      ruby %IN1%      #ここで実行します。前後に改行(ECHO.)入れてもいい<br>
+      cd C:Users\(ユーザー名)\OneDrive\デスクトップ\Ruby    #今回はデスクトップの「ruby」というフォルダにあるプログラムを実行するようにしてあります。
+      ruby %IN1%&#009&#009#ここで実行します。前後に改行(ECHO.)入れてもいい
 
       ECHO 実行完了<br>
-      ECHO 続けて実行する場合はRubyプログラム名を入力してください<br>
-      GOTO :INPUT_START    #最初に戻ります    <br>
+      ECHO 続けて実行する場合はRubyプログラム名を入力してください
+      GOTO :INPUT_START&#009&#009#最初に戻ります
     </div>
   </body>
 </html>
