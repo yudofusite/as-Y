@@ -33,20 +33,20 @@
       バッチファイルとは簡単に表すと<strong>ターミナルで実行したいコマンドを拡張子.batで保存しておき、使うときはそのファイルをクリックするだけ</strong>という<br>
       超絶便利なもので、仕事の効率化などでよく聞く(よね？)アレです。<br>以下、Rubyプログラム実行バッチファイル「RubyRunner.bat」の内容を書いときます。</p>
     <div class="list">
-      @ECHO OFF
-      ECHO 実行するRubyプログラムのファイル名を入れてください
-      :INPUT_START
-      SET IN1=
-      SET /P IN1=    #ファイル名入力部分(ファイル名は変数IN1に代入しています)
-      IF "%IN1%"=="" EXIT
-      :INPUT_CONF    #←要らないかも
+      @ECHO OFF<br>
+      ECHO 実行するRubyプログラムのファイル名を入れてください<br>
+      :INPUT_START<br>
+      SET IN1=<br>
+      SET /P IN1=    #ファイル名入力部分(ファイル名は変数IN1に代入しています)<br>
+      IF "%IN1%"=="" EXIT<br>
+      :INPUT_CONF    #←要らないかも<br>
 
-      cd C:Users\(ユーザー名)\OneDrive\デスクトップ\Ruby    #今回はデスクトップの「ruby」というフォルダにあるプログラムを実行するようにしてあります。
-      ruby %IN1%      #ここで実行します。前後に改行(ECHO.)入れてもいい
+      cd C:Users\(ユーザー名)\OneDrive\デスクトップ\Ruby    #今回はデスクトップの「ruby」というフォルダにあるプログラムを実行するようにしてあります。<br>
+      ruby %IN1%      #ここで実行します。前後に改行(ECHO.)入れてもいい<br>
 
-      ECHO 実行完了
-      ECHO 続けて実行する場合はRubyプログラム名を入力してください
-      GOTO :INPUT_START    #最初に戻ります    
+      ECHO 実行完了<br>
+      ECHO 続けて実行する場合はRubyプログラム名を入力してください<br>
+      GOTO :INPUT_START    #最初に戻ります    <br>
     </div>
   </body>
 </html>
