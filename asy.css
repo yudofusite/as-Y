@@ -44,3 +44,10 @@ a {
 	border-bottom: 2px dotted #dddddd;
 	padding: 4px;
 }
+.kmd {
+	position: relative;
+	left: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 2px;
+}
