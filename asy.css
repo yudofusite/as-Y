@@ -66,3 +66,9 @@ a {
 	height: fit-context;
 	padding: 1vw;
 }
+.asyicon {
+        position: absolute;
+        width: 30px;
+        left: 6px;
+        opacity: 0.4;
+}
