@@ -74,6 +74,7 @@ a {
 }
 .depre {
 	position: relative;
+	left: 20px;
 	background: #000000;
 	color: #ffffff;
 	width: fit-content;
