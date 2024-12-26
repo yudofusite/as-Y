@@ -72,3 +72,12 @@ a {
         left: 6px;
         opacity: 0.4;
 }
+.depre {
+	position: relative;
+	background: #000000;
+	color: #ffffff;
+	width: fit-content;
+	padding: 4px;
+	font-size: 20px;
+	border-radius: 3px;
+}
