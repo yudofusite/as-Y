@@ -11,6 +11,10 @@
 <b>.asyicon</b>　　フッターの湯豆腐アイコン。<br>
 <hr>
 <b>フッターテンプレート</b>
+中身見てコピペでおｋ
 <pre>
-  aa
+<div class="foot">
+  <img src="asy.png" class="asyicon">
+  <a href="index.html"><b style="color: White">　湯豆腐のかたまり──Assemble Yudofu</b></a>
+</div>
 </pre>
