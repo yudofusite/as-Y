@@ -8,6 +8,7 @@
 <b>.ser</b>　　使用言語のやつ。divつかえ<br>
 <b>.ho1</b>　　本文。<br>
 <b>.depre</b>　　ソースとかのやつ。preと併せて。<br>
+<b>.lpre</b>　　ソースとかのやつ2<br>
 <b>.foot</b>　　フッターの背景。基本コピペで良い<br>
 <b>.asyicon</b>　　フッターの湯豆腐アイコン。<br>
 <hr>
