@@ -79,6 +79,7 @@ a {
 	background: #000000;
 	color: #ffffff;
 	width: fit-content;
+	font-size: 16px;
 	padding: 4px;
 	border-radius: 3px;
 }
