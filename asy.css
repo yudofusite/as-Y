@@ -91,3 +91,13 @@ a {
 	padding: 2px;
 	color: #1c6865;
 }
+.lpre {
+	position: relative;
+	left: 20px;
+	background: #000000;
+	color: #ffffff;
+	width: fit-content;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+}
