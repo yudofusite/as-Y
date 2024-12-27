@@ -83,3 +83,10 @@ a {
 	padding: 6px;
 	border-radius: 3px;
 }
+.md2 {
+	position: relative;
+	left: 15px;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 2px;
+}
