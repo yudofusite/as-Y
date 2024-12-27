@@ -3,6 +3,7 @@
 <b>.title</b>　　ページの一番最初。30px bold<br>
 小見出し（中くらいの文字）：<br>
 <b>.kmd</b>　　小見出し専用。25px bold<br>
+<b>.md2</b>　　小見出しミニ。20px bold<br>
 特殊（いろいろ）：<br>
 <b>.ser</b>　　使用言語のやつ。divつかえ<br>
 <b>.ho1</b>　　本文。<br>
