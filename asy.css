@@ -75,6 +75,7 @@ a {
 .depre {
 	position: relative;
 	left: 20px;
+	line-height: 1.5em;
 	background: #000000;
 	color: #ffffff;
 	width: fit-content;
