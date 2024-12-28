@@ -63,9 +63,16 @@ obj.add&#009;&#009;&#009;&#009;#removeで消したオブジェクトを再び表
 rectangle = Rectangle.new&#009;#長方形を生成します
 rectangle.width = 100&#009;&#009;#高さを指定します
 rectangle.height = 150&#009;&#009;#横幅を指定します
-rectangle.color = "#364364"&#009;#色を指定します
+rectangle.color = "#364364"&#009;#色を指定します。他の図形でも方法は同じです。
+rectangle.x = 114&#009;&#009;&#009;#x座標を指定します。他の図形でも方法は同じです
+rectangle.y = 45&#009;&#009;&#009;#y座標を指定します。他の図形でも方法は同じです。
+rectangle.z = 14&#009;&#009;&#009;#z値です。この値が大きいものが手前に表示されます。他の図形でも方法は同じです。
   </pre>
-  <div class="md2">正方形</div>
+  <div class="md2">正方形</div>　　正方形を生成するにはSquare.newを使用します。大きさを指定するときはsize属性を指定します。
+  <pre class="depre">
+square = Square.new&#009;#正方形を生成します
+square.size = 81&#009;&#009;#正方形のサイズを指定します
+  </pre>
   <div class="md2">四辺形</div>
   <div class="md2">円</div>
   <div class="md2">線</div>
