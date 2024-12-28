@@ -97,7 +97,15 @@ line = Line.new(
 )
 line.width = 10&#009;&#009;&#009;#線の幅を指定します
   </pre>
-  <div class="md2">三角形</div>
+  <div class="md2">三角形</div>　　三角形を生成するにはTriangle.newを使用します。頂点のxy座標を指定して使用します。
+  <pre class="depre">
+tri = Triangle.new(
+&#009;x1: 100, y1: 20,&#009;&#009;#まとめて指定しています。
+&#009;x2: 30, y2: 100,
+&#009;x3: 170, y3: 100,
+&#009;color = "#810931"&#009;&#009;#（言い忘れてましたが）()内で色もまとめて指定できます。
+)
+  </pre>
 <hr>
 <div class="kmd">ループ関連</div>
 <div class="foot">
