@@ -47,13 +47,16 @@ show
   <pre class="lpre">set width: 800, height: 450</pre>
 <hr>
 <div class="kmd">オブジェクトとか</div>
-<div class="ho1">Ruby2Dでオブジェクトを表示する方法として、下記のようなやり方が一般的（なのか？）である。</div>
+<div class="ho1">Ruby2Dでオブジェクトを表示する方法として、下記のようなやり方が一般的（なのか？）と思われる。</div>
   <pre class="depre">
 obj = Square.new(size: 100)&#009;#とりあえず正方形　サイズを100に指定してます
 obj.x = 40&#009;&#009;&#009;#こんな感じで座標をあとから指定したり
 obj.remove&#009;&#009;&#009;#オブジェクトを非表示にしたり
 obj.add&#009;&#009;&#009;&#009;#removeで消したオブジェクトを再び表示したり
   </pre>
+  <div class="ho1">オブジェクトを新規生成する場合は下記のように行う。</div>
+<pre class="lpre">定数 = オブジェクトの種類.new</pre>
+  <div class="ho1">定数（もしかしたら変数かも？）にオブジェクトを指定しなくても生成はできるが、あとからオブジェクトに対して何らかの変更を行う場合は<br>定数（変数？）に指定しておく。</div>
 <hr>
 <div class="kmd">ループ関連</div>
 <div class="foot">
