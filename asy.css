@@ -101,3 +101,6 @@ a {
 	padding: 10px;
 	border-radius: 5px;
 }
+pre::selection {
+  background-color: #ffb800;
+}
