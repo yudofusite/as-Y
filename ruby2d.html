@@ -126,9 +126,11 @@ on :key_down do |event|&#009;&#009;#キーが押されたとき
 end
 
 on :key_held do |event|&#009;&#009;#キーが押し続けられた時
+    puts event&#009;&#009;&#009;#押されたキーを表示します(キーが押されている間出力し続けます)
 end
 
 on :key_up do |event|&#009;&#009;#キーを離した時
+    puts event&#009;&#009;&#009;#押されていたキーを表示します
 end
   </pre>
 <div class="foot">
