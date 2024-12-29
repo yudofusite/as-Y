@@ -120,6 +120,16 @@ end</pre>
   <hr>
   <div class="kmd">キー入力関連</div>
   <div class="ho1">アプリケーション全般で欠かせないと思われるキー入力。Ruby2Dだとこんな感じ。</div>
+  <pre class="depre">
+on :key_down do |event|&#009;&#009;#キーが押されたとき
+&#009;puts event&#009;&#009;&#009;#押されたキーをコンソールに表示します
+end
+
+on :key_held do |event|&#009;&#009;#キーが押し続けられた時
+end
+
+on :key_up do |event|&#009;&#009;#キーを離した時
+end
 <div class="foot">
   <img src="asy.png" class="asyicon">
   <a href="index.html"><b style="color: White">　湯豆腐のかたまり──Assemble Yudofu</b></a>
