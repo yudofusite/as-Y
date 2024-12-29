@@ -122,17 +122,29 @@ end</pre>
   <div class="ho1">アプリケーション全般で欠かせないと思われるキー入力。Ruby2Dだとこんな感じ。</div>
   <pre class="depre">
 on :key_down do |event|&#009;&#009;#キーが押されたとき
-&#009;puts event&#009;&#009;&#009;#押されたキーをコンソールに表示します
+&#009;puts event.key&#009;&#009;&#009;#押されたキーをコンソールに表示します
 end
 
 on :key_held do |event|&#009;&#009;#キーが押し続けられた時
-    puts event&#009;&#009;&#009;#押されたキーを表示します(キーが押されている間出力し続けます)
+    puts event.key&#009;&#009;&#009;#押されたキーを表示します(キーが押されている間出力し続けます)
 end
 
 on :key_up do |event|&#009;&#009;#キーを離した時
-    puts event&#009;&#009;&#009;#押されていたキーを表示します
+    puts event.key&#009;&#009;&#009;#押されていたキーを表示します
 end
   </pre>
+  <div class="ho1">特定のキーに対するイベントはif文を組み合わせる。</div>
+  <pre class="depre">
+on :key_down do |event|
+    if event.key == 'キーの名称'
+    puts 'キーが押されました'
+    end
+end
+  </pre>
+  <div class="ho1">この'キーの名称'に関しては、文字キー(アルファベットキーとか数字キーとか)ならそれに対応する文字(例：aキーなら'a'、1キーなら'1')を入れれば良い。<br>
+    なお、数字キーの場合も''で囲んでおかないと正常に動作しなかった。<br>
+    その他のキーに関しては下記の通り。
+  </div>
 <div class="foot">
   <img src="asy.png" class="asyicon">
   <a href="index.html"><b style="color: White">　湯豆腐のかたまり──Assemble Yudofu</b></a>
