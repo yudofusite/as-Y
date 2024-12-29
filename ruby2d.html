@@ -150,10 +150,18 @@ on :key_down do |event|
 end</pre>
   <div class="ho1">この'キーの名称'に関しては、文字キー(アルファベットキーとか数字キーとか)ならそれに対応する文字(例：aキーなら'a'、1キーなら'1')を入れれば良い。<br>
     なお、数字キーの場合も''で囲んでおかないと正常に動作しなかった。<br>
-    その他のキーに関しては下記の通り。
+    その他のキーに関しては下記のプログラムを実行し、名称を知りたいキーを押下するとキーの名称がわかる。
   </div>
-  <div class="ho1"><b>矢印キー</b></div>
-  
+  <pre class="depre">
+require 'ruby2d'
+set title: "キー入力テスト"
+set width:640, height: 480
+
+on :key_down do |ev|
+&#009;puts ev.key
+end
+
+show</pre>
 <div class="foot">
   <img src="asy.png" class="asyicon">
   <a href="index.html"><b style="color: White">　湯豆腐のかたまり──Assemble Yudofu</b></a>
