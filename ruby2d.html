@@ -111,6 +111,18 @@ tri = Triangle.new(
   <div class="ho1">文字を生成するにはText.newを使用しますが、日本語を使用する際には日本語に対応したフォントファイル(.ttfもしくは.otf)を用意する必要があります（必須）。<br>
     主は<a href="https://fonts.google.com/noto/specimen/Noto+Sans+JP">NotoSans.jp</a>というフリーフォントを使用しました。<br>
     ダウンロードしたフォントファイル(.ttfまたは.otf)は作業フォルダに入れてください。</div>
+  <pre class="depre">
+Font =  'NotoSansJP-VariableFont_wght.ttf'&#009;&#009;#使用するフォントのフォントファイル名を定数Fontに代入
+
+@text = Text.new(&#009;&#009;&#009;#テキストを生成
+&#009;'表示したいテキスト',
+&#009;size: 20,&#009;&#009;&#009;#フォントサイズ
+&#009;color: 'white,
+&#009;x: 10,
+&#009;y: 60,
+&#009;font: Font&#009;&#009;&#009;#使用するフォントを指定（フォントファイル名を指定した定数「File」を指定していますが、フォントファイル名を直接入れても良い）
+)
+  </pre>
 <div class="md2">全オブジェクト消去</div>
   <div class="ho1">もしすべてのオブジェクトを削除する必要がある場合はclearを使用する。</div>
   <pre class="lpre">clear</pre>
