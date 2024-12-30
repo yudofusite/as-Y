@@ -105,7 +105,7 @@ pre::selection {
   background-color: #ffb800;
 }
 .img1 {
-	position: fixed;
+	position: relative;
 	left: 30px;
 	width: 40vw;
 }
