@@ -113,3 +113,10 @@ figcaption {
 	font-size: 14px;
 	font-weight: bold;
 }
+.hr {
+	position: relative;
+	margin: 20px 20vw 20px 20vw;
+	width: 60vw;
+	color: #aaaaaa;
+	height: 3px;
+}
