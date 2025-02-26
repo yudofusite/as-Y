@@ -112,6 +112,7 @@ img::selection {
 	position: relative;
 	left: 30px;
 	width: 40vw;
+	transition: 0.3s;
 }
 figcaption {
 	font-size: 14px;
