@@ -82,6 +82,7 @@
       const dwidth = window.innerWidth;
       let bgp = 0;
       let bgpv = 0.2;
+      bgpv = 5;
       if (dwidth >= 1500) {
         document.getElementById("sider").style.display = 'block';
         sider.style.left = dwidth - 200 + "px";
@@ -93,12 +94,14 @@
           }
         }, 1000 / 60);
       }
+      /*
       addEventListener("mousemove", function() {
         bgpv += 5;
         if (bgpv > 10) {
           bgpv = 10;
         }
       });
+      */
     </script>
   </body>
 </html>
