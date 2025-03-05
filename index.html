@@ -95,6 +95,9 @@
       }
       addEventListener("mousemove", function() {
         bgpv += 5;
+        if (bgpv > 10) {
+          bgpv = 10;
+        }
       });
     </script>
   </body>
