@@ -78,7 +78,10 @@
     <div class="sider" id="sider"></div>
     <script>
       const sider = document.getElementById("sider");
-      console.log(window.innerWidth);
+      const width = console.log(window.innerWidth);
+      if (width >= 1500) {
+        sider.style.display = "block";
+      }
     </script>
   </body>
 </html>
