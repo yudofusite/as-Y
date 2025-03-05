@@ -79,10 +79,10 @@
     <script>
       "use strict";
       const sider = document.getElementById("sider");
-      const width = console.log(window.innerWidth);
+      const dwidth = window.innerWidth;
       if (width >= 1500) {
         document.getElementById("sider").style.display = 'block';
-        sider.style.left = width - 200;
+        sider.style.left = dwidth - 200;
       }
     </script>
   </body>
