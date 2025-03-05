@@ -45,7 +45,7 @@
         background-repeat: repeat-y;
         background-size: contain;
         float: right;
-        display: block;
+        display: none;
       }
     </style>
   </head>
@@ -77,10 +77,11 @@
       改善する気はないんだな、これが。</div><br>
     <div class="sider" id="sider"></div>
     <script>
+      use_strict;
       const sider = document.getElementById("sider");
       const width = console.log(window.innerWidth);
       if (width >= 1500) {
-        sider.style.display = "block";
+        sider.display = "block";
         sider.style.left = width - 200;
       }
     </script>
