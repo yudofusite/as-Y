@@ -89,12 +89,12 @@
           sider.style.backgroundPosition = 0 + " " + bgp + "px";
           bgp += bgpv;
           if (bgpv > 0.2) {
-            bgpv = 0.8 * (bgpv - 0.2) + 0.2;
+            bgpv = 0.95 * (bgpv - 0.2) + 0.2;
           }
-        });
+        }, 1000 / 60);
       }
       addEventListener("mousemove", function() {
-        bgpv += 6;
+        bgpv += 5;
       });
     </script>
   </body>
