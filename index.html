@@ -81,12 +81,13 @@
       const sider = document.getElementById("sider");
       const dwidth = window.innerWidth;
       let bgp = 0;
+      let bgpv = 0.2;
       if (dwidth >= 1500) {
         document.getElementById("sider").style.display = 'block';
         sider.style.left = dwidth - 200 + "px";
         setInterval(function() {
           sider.style.backgroundPosition = 0 + " " + bgp + "px";
-          bgp += 0.2;
+          bgp += bgpv;
         });
       }
     </script>
