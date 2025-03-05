@@ -45,6 +45,7 @@
         background-repeat: repeat-y;
         background-size: contain;
         float: right;
+        display: none;
       }
     </style>
   </head>
@@ -75,5 +76,9 @@
       まあ、そもそもこのサイトにたどり着ける人がいるかどうかもわからない。たぶんいない<br><br>
       改善する気はないんだな、これが。</div><br>
     <div class="sider" id="sider"></div>
+    <script>
+      const sider = document.getElementById("sider");
+      console.log(window.innerWidth);
+    </script>
   </body>
 </html>
