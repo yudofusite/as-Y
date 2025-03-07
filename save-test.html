@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <title>画像保存テスト</title>
+  <style>
+    canvas {
+      position: relative;
+      border: 2px solid #000030;
+      width: 1145px;
+      height: 810px;
+    }
+    input {
+      width: 50px;
+    }
+    .label {
+      font-size: 15px;
+    }
+    .black {
+      display: none;
+    }
+    .name {
+      width: 200px;
+    }
+    .subtitle {
+      font-size: 12px;
+    }
+    .title {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .title_inp {
+      width: 350px;
+    }
+    .sli {
+      width: 200px;
+    }
+    .fil {
+      width: fit-content;
+    }
+    .koko {
+      background: #cccccc;
+      padding: 20px 0 20px 0;
+    }
+    .ask {
+      font-size: 16px;
+    }
+    </style>
+ </head>
+<body>
+  <div class="title">例のアレのタイトル風ジェネレーター</div>
+  <div class="subtitle">やっぱり僕は王道を往く。</div>
+<hr>
+  <button id="save">保存する</button><br>
+<div class="black">
+  <span class="label">x</span>
+  <input type="number" value="1145" id="mx">
+  <span class="label">y</span>
+  <input type="number" value="810" id="my"><br>
+</div>
+    <span class="label">ファイル名：</span>
+    <input type="text" value="例のアレ" class="name" id="name"><span class="label">.png</span><br>
+    <span class="label">タイトル名：</span>
+    <textarea rows="4" cols="45" id="title">第一章
+　　「こんな感じで！
+　　　　　表示できます！」</textarea><br>
+    <span class="label">x座標：</span>
+    <input type="range" min="0" max="1145" class="sli" id="ti_x" value = "250"><br>
+    <span class="label">y座標：</span>
+    <input type="range" min="0" max="810" class="sli" id="ti_y"><br>
+<div class="koko">
+    <span class="label">背景画像</span>
+    <input type="file" class="fil" accept="image/png, image/jpeg" id="png"><br>
+    <span class="label">原点x座標：</span>
+    <input type="range" min="0" max="1145" class="sli" id="im_xz" value = "500"><br>
+    <span class="label">原点y座標：</span>
+    <input type="range" min="0" max="810" class="sli" id="im_yz"><br>
+    <span class="label">width：</span>
+    <input type="range" min="0" max="1919" class="sli" id="im_x" value = "500"><br>
+    <span class="label">height：</span>
+    <input type="range" min="0" max="1919" class="sli" id="im_y">
+</div>
+    <input type="checkbox" id="cl">
+    <label for="cl">縦書き<font color="red">（開発中）</font></label><br>
+    <input type="checkbox" id="cr">
+    <label for="cr">背景透過（背景画像無選択時）</label><br>
+
+  <canvas id="main"></canvas>
+<hr>
+<div class="ask">画像はアップロードすると大きさが小さくなっていると思います。<br>
+「width」「height」の値を大きくして横幅に合わせてください。<br>
+また、画像の位置調節は「原点x座標」「原点y座標」の値で変更できます。</div>
+<div class="ask"><b>このジェネレーターについて</b><br>
+「例のアレ」の章の始まりのフォントを再現しました。好きな画像を選択してやってみてください。<br>
+なお、自己責任の範囲でご使用ください。SNS等へのアップロードも自由です。（なお自己責任の範囲で）
+</div>
+
+<script src="savetest.js"></script>
+</body>
+</html>
