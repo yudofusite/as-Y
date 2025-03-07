@@ -55,7 +55,7 @@ let main_edit = setInterval(function() {				//メインループ
 		imgx = parseInt(document.getElementById("im_xz").value);
 		imgy = parseInt(document.getElementById("im_yz").value);
 
-		mc.drawImage(haikei, 0, 0, imgw, imgh);
+		mc.drawImage(haikei, imgx, imgy, imgw, imgh);
 	}
 	mc.fillStyle = "#000060";
 	title_write(title.value, 0);
