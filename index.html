@@ -47,6 +47,11 @@
         float: right;
         display: none;
       }
+      .status-thispage {
+        position: relative;
+        left: 10px;
+        font-size: 10px;
+      }
     </style>
   </head>
   <body>
@@ -75,11 +80,13 @@
       スマホだとちょっと違和感があります。<br>
       まあ、そもそもこのサイトにたどり着ける人がいるかどうかもわからない。たぶんいない<br><br>
       改善する気はないんだな、これが。</div><br>
+    <div class="status-thispage" id="st">view size: [falled]</div>
     <div class="sider" id="sider"></div>
     <script>
       "use strict";
       const sider = document.getElementById("sider");
       const dwidth = window.innerWidth;
+      document.getElementById("st").textContent = "view size/ width:" + dwidth
       let bgp = 0;
       let bgpv = 0.2;
       bgpv = 5;
