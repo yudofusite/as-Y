@@ -27,14 +27,15 @@ img::selection {
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 0.1em;
+  margin: 8px auto 5px 10px;
 }
 .ho1 {
   position: relative;
   color: #000030;
-  left: 25px;
+  left: 30px;
 }
 .kmd {
   position: relative;
   color: #101050;
-  left: 20px;
+  left: 25px;
 }
