@@ -46,3 +46,6 @@ img::selection {
 .im81 {
   max-width: 450px;
 }
+table {
+  margin: 10px;
+}
