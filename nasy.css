@@ -26,6 +26,7 @@ img::selection {
   color: #000000;
   font-weight: bold;
   font-size: 36px;
+  letter-spacing: 0.1em;
 }
 .ho1 {
   position: relative;
