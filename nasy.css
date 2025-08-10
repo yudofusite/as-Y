@@ -5,7 +5,7 @@ html {
 body {
   font-family:"メイリオ", "Meiryo","ＭＳ ゴシック","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3",sans-serif; 
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow-x: hidden;
 }
 
@@ -19,4 +19,11 @@ pre::selection {
 }
 img::selection {
   background-color: #1aff86;
+}
+
+.title {
+  position: relative;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
 }
