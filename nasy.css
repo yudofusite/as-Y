@@ -26,8 +26,8 @@ img::selection {
   color: #000000;
   font-weight: bold;
   font-size: 36px;
-  letter-spacing: 0.1em;
-  margin: 8px auto 5px 10px;
+  letter-spacing: 0.05em;
+  margin: 10px auto 5px 10px;
 }
 .ho1 {
   position: relative;
