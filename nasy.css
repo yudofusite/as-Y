@@ -44,4 +44,5 @@ img::selection {
   border-bottom: 2px dotted #8080a5;
 }
 .im81 {
-  height: 
+  max-width: 450px;
+}
