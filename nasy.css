@@ -49,6 +49,7 @@ img::selection {
   font-size: 20px;
   font-weight: bold;
   padding: 5px;
+  margin: 5px auto 8px 20px;
   border-left: 6px double #32a1ce;
 }
 .im81 {
