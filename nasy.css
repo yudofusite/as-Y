@@ -76,7 +76,6 @@ table {
 
 .sider {
   position: fixed;
-  width: fit_content;
   padding: 55px 5px auto 5px;
   background: #000070;
   min-height: 100vh;
