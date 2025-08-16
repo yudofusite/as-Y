@@ -97,3 +97,16 @@ table {
   color: #ffffff;
   font-weight: bold;
 }
+
+.footer {
+  background: #eeeeee;
+  position: relative;
+  margin: 10px 0 0 0;
+  padding: 10px 5px 5px 20px;
+  color: #000030;
+  width: 100vw;
+}
+
+.footer b {
+  font-size: 25px;
+}
