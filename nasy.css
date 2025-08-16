@@ -68,7 +68,7 @@ table {
 }
 
 .bg_i {
-  position: absolute;
+  position: fixed;
   width: 40vw;
   min-width: 650px;
   right: 50px;
