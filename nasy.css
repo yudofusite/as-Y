@@ -92,3 +92,8 @@ table {
   display: none;
   transition: 0.2s;
 }
+
+.sider a {
+  color: #ffffff;
+  font-weight: bold;
+}
