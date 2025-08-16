@@ -117,6 +117,16 @@
           sider.style.display = "none";
         }
       });
+      
+      bgpv = 5;
+      let bgp = 0;
+      setInterval(function() {
+        sider.style.backgroundPosition = 0 + " " + bgp + "px";
+        bgp += bgpv;
+        if (bgpv > 0.2) {
+          bgpv = 0.95 * (bgpv - 0.2) + 0.2;
+        }
+       }, 1000 / 60);
     </script>
   </body>
 </html>
