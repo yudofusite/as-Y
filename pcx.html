@@ -95,7 +95,11 @@
       let menu = 0;    //メニューが開いているかどうか。1=展開
       console.log(me_b);
       me_b.addEventListener('mousedown', () => {
-        console.log('マウスボタンを押した。');
+        if (menu == 1) {
+          menu = 0;
+        } else {
+          menu = 1;
+        }
       });
     </script>
   </body>
