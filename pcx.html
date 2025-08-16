@@ -100,6 +100,7 @@
     <img src="yudofu-menu.png" class="bg_i" id="menubtn" />
     <script>
       const me_b = document.getElementById("menubtn");
+      const me_v = document.getElementById("sider");
       let menu = 0;    //メニューが開いているかどうか。1=展開
       console.log(me_b);
       me_b.addEventListener('mousedown', () => {
@@ -109,6 +110,7 @@
           menu = 1;
         }
         if (menu == 1) {
+          sider.style.display = "block";
         }
       });
     </script>
