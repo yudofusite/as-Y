@@ -36,6 +36,15 @@ if (footer != null) {
   footer.innerHTML = '<div class="footer_gen"><b><a href="index.html">湯豆腐サイト</a></b><br>湯豆腐のかたまり ── Assemble Yudofu</div>';
 }
 
+/*
+  使い方
+<div id="side"></div>
+<div id="footer"></div>
+<img src="yudofu-menu.png" class="bg_i" id="menubtn" />
+<script src="general.js"></script>
 
+    この4行を</head>の前に書いておくこと
+
+*/
 
 
