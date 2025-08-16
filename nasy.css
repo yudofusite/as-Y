@@ -90,4 +90,5 @@ table {
   float: right;
 
   display: none;
+  transition: 0.2s;
 }
