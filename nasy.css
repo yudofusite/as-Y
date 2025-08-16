@@ -98,7 +98,7 @@ table {
   font-weight: bold;
 }
 
-.footer {
+.footer_gen {
   background: #eeeeee;
   position: relative;
   margin: 10px 0 0 0;
@@ -107,6 +107,6 @@ table {
   width: 100vw;
 }
 
-.footer b {
+.footer_gen b {
   font-size: 25px;
 }
