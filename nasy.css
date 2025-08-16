@@ -99,12 +99,12 @@ table {
 }
 
 .footer_gen {
-  background: #eeeeee;
   position: relative;
   margin: 10px 0 0 0;
   padding: 10px 5px 5px 20px;
   color: #000030;
   width: 100vw;
+  border-radius: 4px;
 }
 
 .footer_gen b {
