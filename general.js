@@ -17,10 +17,17 @@ me_b.addEventListener('mousedown', () => {
       
 bgpv = 5;
 let bgp = 0;
+
 setInterval(function() {
   sider.style.backgroundPosition = 0 + " " + bgp + "px";
   bgp += bgpv;
   if (bgpv > 0.2) {
     bgpv = 0.95 * (bgpv - 0.2) + 0.2;
   }
+
 }, 1000 / 60);
+
+let footer = document.getElementById("footer");
+if (footer != null) {
+  footer.innerHTML = '<div class="footer_gen"><b><a href="index.html">湯豆腐サイト</a></b><br>湯豆腐のかたまり ── Assemble Yudofu</div>';
+}
