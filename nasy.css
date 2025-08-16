@@ -76,10 +76,11 @@ table {
 
 .sider {
   position: fixed;
-  padding: 80px 30px 30px 30px;
+  padding: 100px 30px 30px 30px;
   background: #000070;
   min-height: 100vh;
   top: 0px;
   right: 0px;
   color: #eeeeee;
+  line-height: 2.5;
 }
