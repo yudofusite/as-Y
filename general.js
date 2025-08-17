@@ -2,9 +2,11 @@ const me_b = document.getElementById("menubtn");
 const me_vb = document.getElementById("side");
 let menu = 0;    //メニューが開いているかどうか。1=展開
 
-const head = document.head;
-const favicon = '<link rel="icon" href="favicon.ico">';
-head.innerHTML = head + favicon
+window.onload = function(){
+  const head = document.head;
+  const favicon = '<link rel="icon" href="favicon.ico">';
+  head.innerHTML = head + favicon
+}
 
 me_vb.innerHTML = '<div class="sider" id="sider"> <a href="index.html">湯豆腐サイトトップ</a><br><a href="select-page.html">記事一覧</a><br><br><a href="https://yudofusite.github.io/japan_desktop/">日本を飛ばそう Desktop Edition</a><br><br><a href="https://youtube.com/channel/UCtSopuVkfDc34jFfcvp0-NA?si=kNI5QTj2ntiVSWMc">YouTubeチャンネル</a><br><a href="https://scratch.mit.edu/users/kokesiant">scratchマイページ</a><hr><small>&copy;2025 yudofusite管理人 kokesiant</small> </div>';
 
@@ -52,6 +54,7 @@ if (footer != null) {
     この4行を</head>の前に書いておくこと
 
 */
+
 
 
 
