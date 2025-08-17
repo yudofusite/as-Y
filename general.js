@@ -4,6 +4,8 @@ let menu = 0;    //メニューが開いているかどうか。1=展開
 
 me_vb.innerHTML = '<div class="sider" id="sider"> <a href="index.html">湯豆腐サイトトップ</a><br><a href="select-page.html">記事一覧</a><br><br><a href="https://yudofusite.github.io/japan_desktop/">日本を飛ばそう Desktop Edition</a><br><br><a href="https://youtube.com/channel/UCtSopuVkfDc34jFfcvp0-NA?si=kNI5QTj2ntiVSWMc">YouTubeチャンネル</a><br><a href="https://scratch.mit.edu/users/kokesiant">scratchマイページ</a><hr><small>&copy;2025 yudofusite管理人 kokesiant</small> </div>';
 
+console.log("using 汎用JavaScript -general.js");
+
 const me_v = document.getElementById("sider");
 
 me_b.addEventListener('mousedown', () => {
@@ -46,5 +48,6 @@ if (footer != null) {
     この4行を</head>の前に書いておくこと
 
 */
+
 
 
